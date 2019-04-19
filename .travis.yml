@@ -1,10 +1,12 @@
- language: node_js	
- node_js:
-   - "lts/*"
- before_install:
-   - curl -o- -L https://yarnpkg.com/install.sh | bash -s --
-   - export PATH="$HOME/.yarn/bin:$PATH"
- install:
-   - yarn
- script:	
-   - yarn lint
+language: python
+python:
+   - 3.7
+
+install:
+  - pipenv install
+
+jobs:
+  include:
+    - stage: "Tests"
+      name: "Build site"
+      script: mkdocs build --verbose --clean --strict
