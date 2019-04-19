@@ -16,9 +16,9 @@ theme:
 
 copyright: 'Copyright 2019 Team 581'
 
-repo_name: 'blazingbulldogs/docs'
-repo_url: 'https://github.com/blazingbulldogs/docs'
-edit_uri: edit/master/docs
+repo_name: 'blazingbulldogs/wiki'
+repo_url: 'https://github.com/blazingbulldogs/wiki'
+edit_uri: edit/master/wiki
 
 extra:
   social:
