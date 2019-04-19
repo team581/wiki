@@ -8,7 +8,7 @@ theme:
     primary: 'red'
     accent: 'orange'
   logo:
-    icon: 'wrench'
+    icon: 'build'
   #detailedLogo: 'images/bulldog.png'
   #favicon: 'images/favicon.png'
   feature:
