@@ -1,0 +1,55 @@
+site_name: Team 581 Wiki
+#site_url: https://581
+
+theme:
+  name: 'material'
+  custom_dir: theme_modifications
+  palette:
+    primary: 'red'
+    accent: 'orange'
+  logo:
+    icon: 'wrench'
+  #detailedLogo: 'images/bulldog.png'
+  #favicon: 'images/favicon.png'
+  feature:
+    tabs: true
+
+copyright: 'Copyright 2019 Team 581'
+
+repo_name: 'blazingbulldogs/docs'
+repo_url: 'https://github.com/blazingbulldogs/docs'
+edit_uri: edit/master/docs
+
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/blazingbulldogs'
+
+markdown_extensions:
+  - admonition
+
+  - codehilite:
+      guess_lang: false
+
+  - toc:
+      permalink: true
+  - footnotes
+
+  - meta
+
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
