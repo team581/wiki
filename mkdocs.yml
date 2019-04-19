@@ -1,5 +1,5 @@
 site_name: Team 581 Wiki
-#site_url: https://581
+site_url: https://581.netlify.com
 
 theme:
   name: 'material'
