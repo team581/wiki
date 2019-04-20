@@ -1,6 +1,9 @@
+# Python 3.7 is only on Xenial
+dist: xenial
+
 language: python
 python:
-   - 3.7.3
+   - "3.7.3"
 
 before_install:
   - pip install pipenv
