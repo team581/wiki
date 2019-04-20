@@ -18,7 +18,7 @@ copyright: 'Copyright 2019 Team 581'
 
 repo_name: 'blazingbulldogs/wiki'
 repo_url: 'https://github.com/blazingbulldogs/wiki'
-edit_uri: edit/master/wiki
+edit_uri: edit/master/docs
 
 extra:
   social:
@@ -28,14 +28,14 @@ extra:
 markdown_extensions:
   - admonition
 
-  - codehilite:
-      guess_lang: false
+  - codehilite
 
-  - toc:
-      permalink: true
   - footnotes
 
   - meta
+
+  - toc:
+      permalink: true
 
   - pymdownx.arithmatex
   - pymdownx.betterem:
