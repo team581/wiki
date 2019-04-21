@@ -22,6 +22,8 @@ extra:
   social:
     - type: 'github'
       link: 'https://github.com/blazingbulldogs'
+    - type: 'instagram'
+      link: 'https://www.instagram.com/team_581/'
 
 markdown_extensions:
   - admonition
