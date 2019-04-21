@@ -5,8 +5,8 @@ theme:
   name: 'material'
   custom_dir: theme_modifications
   palette:
-    primary: 'red'
-    accent: 'orange'
+    primary: 'grey'
+    accent: 'red'
   logo:
     icon: 'build'
   #detailedLogo: 'images/bulldog.png'
