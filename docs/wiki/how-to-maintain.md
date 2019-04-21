@@ -5,10 +5,4 @@ description: Information and tools needed to maintain the wiki.
 
 ## Tool Installation
 
-!!! info
-    Requires Chocolatey.
-
-```bash
-choco install python
-pip install --user pipenv
-```
+Requires [Python](/tools/python) and [Pipenv](/tools/python/#pipenv).
