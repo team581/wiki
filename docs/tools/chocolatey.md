@@ -15,4 +15,4 @@ description: Chocolatey is a package manager for Windows.
 ## `refreshenv`
 
 [Chocolatey](https://chocolatey.org/) introduces a command called `refreshenv`. this can be used to refresh environment variables.
-The alternative to using `refreshenv` is to log out or restart your computer.
+The alternative to using `refreshenv` is to log out of your account or restart your computer.
