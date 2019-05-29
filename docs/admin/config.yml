@@ -1,0 +1,17 @@
+backend:
+  name: github
+  repo: blazingbulldogs/wiki
+  branch: master
+
+public_folder: "site"
+media_folder: "site/images"
+
+collections:
+  - name: "doc"
+    label: "Doc"
+    folder: "docs"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
