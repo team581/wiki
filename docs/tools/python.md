@@ -32,7 +32,7 @@ choco install python
 4. Click the `Install now` button.
 5. If prompted, select `Yes` when asked if you want to run the file as an administrator.
 
-After installation, you may want to [refresh the environment variables]() to use [Python](https://www.python.org/).
+After installation, you may want to [refresh the environment variables](/guides/windows/refreshing-environment-variables) to use [Python](https://www.python.org/).
 
 ## [Pipenv](https://pipenv.readthedocs.io/en/latest/)
 
