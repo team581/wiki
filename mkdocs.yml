@@ -5,14 +5,14 @@ theme:
   name: 'material'
   custom_dir: theme_modifications
   palette:
-    primary: 'grey'
+    primary: 'red'
     accent: 'red'
   logo:
     icon: 'build'
   #detailedLogo: 'images/bulldog.png'
   #favicon: 'images/favicon.png'
 
-copyright: 'Copyright 2019 Team 581'
+copyright: 'Copyright 2020 Team 581'
 
 repo_name: 'blazingbulldogs/wiki'
 repo_url: 'https://github.com/blazingbulldogs/wiki'
